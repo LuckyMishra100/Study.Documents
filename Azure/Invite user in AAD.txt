@@ -1,0 +1,40 @@
+#region invite user
+        public async Task<IActionResult> InviteUser(B2CUserRegisterViewModel user) 
+        {
+            try
+            {
+                var scopes = new[] { "https://graph.microsoft.com/.default" };
+                var tenantId = "0b65dcf6-c4c8-4580-a74d-c94e30cf7d23";
+                var clientId = "152cf1ce-f8be-4c04-87dc-660752ab1122";
+                var clientSecret = "5DD8Q~j7SHhamKUsS3YD6jua_P4pp1n2idn1JbDg";
+                var options = new TokenCredentialOptions
+                {
+                    AuthorityHost = AzureAuthorityHosts.AzurePublicCloud
+                };
+
+                var clientSecretCredential = new ClientSecretCredential(
+                    tenantId, clientId, clientSecret, options);
+
+                var graphClient = new GraphServiceClient(clientSecretCredential, scopes);
+
+
+                var invitation = new Invitation
+                {
+                    InvitedUserEmailAddress = user.Email,
+                    InviteRedirectUrl = "https://login.microsoftonline.com/?tenantid=" + tenantId+"&login_hint="+user.Email,
+                  // InviteRedirectUrl = "https://localhost:44349",
+                    SendInvitationMessage = true
+                };
+
+              var res=  await graphClient.Invitations
+                    .Request()
+                    .AddAsync(invitation);
+            }
+            catch (Exception e)
+            { 
+            
+            }
+           
+            return RedirectToAction("GetUsers", "ManageUser");
+        }
+        #endregion
