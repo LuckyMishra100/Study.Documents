@@ -1,0 +1,4 @@
+to get the week last date sunday
+SET DATEFIRST 1
+
+Select DATEADD(DAY , 7-DATEPART(WEEKDAY,GETDATE()),GETDATE()) AS 'Last Day Of Week' 

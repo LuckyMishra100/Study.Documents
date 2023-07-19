@@ -1,0 +1,23 @@
+Embed Power BI Report to Web (service principal and an application secret)
+-------------------------------------------------------------------------
+-->App Registration (Copy the Display Name)
+-->API Permission -->Add --> Power Bi Service
+-->Certicates & Secrets
+
+-->Go To Pwer Bi Servcies
+-->Create a new Workspace
+-->Click on Access -->  (Paste Your App Display Name) --->Add
+-->Create a new Report --> Upload/Add New Report  --> Allow service principals to use Power BI APIs --> Enable  --> Entire Organization
+
+--Go to your Web App
+ code reference - AppOwnsData   Application
+
+--------------------------------------------------------------------
+
+Connect Azure SQl Database to Power BI
+->To publish you report on Power Bi Service your data source must be hosted on azure.
+->
+
+
+
+
