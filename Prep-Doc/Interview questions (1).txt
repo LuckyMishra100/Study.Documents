@@ -1,0 +1,75 @@
+------Interview Questions for PCL Health--------
+
+1) What is OOPs.
+2) What is Polymorphism and type of Polymorphism.
+3) Diffrence between Override and Overload.
+4) Difference between + operator and concat.
+5) What is constructor and deconstructor 
+6) What is use deconstructor.
+7) Type Of inheritance.
+8) Difference Abstration and Interface.
+9) Do you have knowledge of Azure.
+10) What is constructor or deconstructer? type of constructor.
+11) What is data structure.
+12) Your previous project. Realtime polymorphism example and where do you implemented it.
+13) Difference between app.use vs app.Run While adding middleware.
+14) what is launch setting.json in Asp.net core.
+15) 3 types of programming language which use oops concept.whya C language did not use oops concepts.
+16) What is the difference between SaaS, PaaS, IaaS?
+17) Tell me something about Azure Cloud service. 
+18) How Can you fill the golf ball in Maruti van. 
+19) How to prevent duplicate entries when making a query in SQL.
+20) Asking Some more questions about azure and asking related to Live examples of old projects. 
+21) What is Manifest?
+22) Linked Queue in SQL and Data Structure (with live example)
+23) Azure Authentication Service in detail.
+24) RunTime Polymorphism (with live example)
+25) Diffrence btw Override and Overload (with live example)
+26) Diffrence btw Azure and AWS
+27) Clauses (Order by, where ...)
+28) Services in AWS
+29) Hierarchical inheritance (with live example)
+30) REST API (detailed)
+31) Azure Communication Services (SMS, Voice Calling, Video Calling)
+32) Data Structure in Daily life
+33) Code: Swap two variable without using third variable a=5 b=7 
+34) Primary Key, use of Primary Key and some more questions about SQL.
+35) Abstraction and Encapsulation
+36) Difference Between Get and Post in Web API.
+35) Disadvantages of MVC
+36) What is Delegates? Write the Syntax of Delegates and where do you use it in your project.
+37) why array index starts from 0?
+38) what is procedural programming language?
+39) what is oops? why we use oops ? what are the benifits of oops over procedural programming.
+40) why we don't use concept of pointers in c#?
+40) What is Generic API?
+41) what are joins in SQL Server?
+42) what is primary key and foreign keys?
+43) Program to sort an array
+44) What is startup.cs file?
+45) what are middlewares?
+46) What is LINQ?
+47) what is Tabular array?
+48) What is the difference between readonly and constant? 
+49) Access Modifiers indeatils
+50)Types of Classes
+51) What is Abstract class
+52) differences between GET and POST API
+53) Why use interface 
+54) Try catch and final key word
+55) type of inheritance 
+56) Inheritance in c#
+57) lambda expression and how to use it 
+58) Difference between == and === 
+59) Different Ways To Access DataBase 
+60) Stored procedure
+61) Azure services
+62) How many versions of .net framework are there and name it. 
+63) what is  Serverless and serverside 
+64) If we have group of 4 people  and if 2 of the friends in our group don't spend money  but after the entrance of one girl  in our group they both started to spend money so which principal of OOPs    goes on this situation
+65) What is Manifest
+66) What is OOPs and Many questions related to this
+67) Coding Question - Eg - [ Chirag , Gabhrani, Chirag, Chirag, Gabhrani, Chirag, Chirag, Chirag, Gabhrani ] , excced the no. of count to one of first name after the presence of last name
+68) 1-2 questions of azure and some questions related to .net and logical ques.
+69) What is overloading and overriding
+
